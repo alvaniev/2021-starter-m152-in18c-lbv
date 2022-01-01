@@ -3,7 +3,7 @@
 
       <v-app-bar app>
         <v-toolbar-title class="headline text-uppercase">
-          <span class="font-weight-light">Hockey National League</span>
+          <span class="font-weight-light">Galerie</span>
         </v-toolbar-title>
         <v-spacer></v-spacer>
       </v-app-bar>
