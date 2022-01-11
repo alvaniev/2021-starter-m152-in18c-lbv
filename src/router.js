@@ -4,6 +4,8 @@ import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld.vue';
 import A3 from '@/components/A3.vue';
 import A2 from '@/components/A2.vue';
+import A5 from '@/components/A5.vue';
+import A7 from '@/components/A7.vue';
 
 Vue.use(Router);
 
@@ -25,6 +27,16 @@ export default new Router({
       path: '/a2',
       name: 'a2',
       component: A2,
+    },
+    {
+      path: '/a5',
+      name: 'a5',
+      component: A5,
+    },
+    {
+      path: '/a7',
+      name: 'a7',
+      component: A7,
     }
-  ],
+  ], 
 });
